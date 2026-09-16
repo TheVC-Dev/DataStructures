@@ -5,7 +5,7 @@ public class Person{
     private int id;
     private static int idCount = 1;
 
-    public Person(String firstName, String lastName, int id){
+    public Person(String firstName, String lastName){
         this.firstName = firstName;
         this.lastName = lastName;
         this.id = idCount++;
@@ -28,17 +28,15 @@ public class Person{
     }
 
     public void printFirstName(){
-        system.our.printin(firstName);
+        System.out.println(firstName);
         
     }
     public void printLastName(){
-        system.our.printin(firstName);
-        
+        System.out.println(firstName);
     }
 
     public void printid(){
-        system.our.printin(id);
-        
+        System.out.println(id);
     }
 
     public String toString(){
