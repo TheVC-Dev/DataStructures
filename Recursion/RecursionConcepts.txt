@@ -1,0 +1,10 @@
+-Recursion is when a function makes a function call on itself 
+
+-Each recursive method requires a base case, which is the condition that stops the recursive call.
+
+-If a recursive method never reaches its base case, it wont stop. This will cause an StackOverflowError. 
+
+-The frame of each recursive call is stored on the stack during recursion.  
+
+-During recursion, each call stores its own frame in the stack containing its patameters its variables and address of the fram below it.
+-During recursion, each call stores its own frame on the stack containing its patameters, its variables and the return address of where :q.
